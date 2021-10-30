@@ -10,7 +10,7 @@ import "./TodoCounter.css";
 function TodoCounter(/* props */ /* { total, completed} */) {
     const { totalTodos, completedTodos} = React.useContext(TodoContext);
     return (
-        <h2 /* style={estilos} */ className="TodoCounter">Haz completado {completedTodos} de {totalTodos } TODOs</h2>
+        <h2 /* style={estilos} */ className="TodoCounter">Te falta comprar {completedTodos} de {totalTodos } items</h2>
     );
 };
 
