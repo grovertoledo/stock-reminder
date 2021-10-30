@@ -30,7 +30,7 @@ function TodoForm() {
             <textarea
                 value={newTodoValue}
                 onChange={onChange}
-                placeholder="Comer almuerzo"
+                placeholder="e.g. 1 kg de manzanas"
             />
             <div className="TodoForm-buttonContainer">
                 <button className="TodoForm-button TodoForm-button--cancel" type="button" onClick={onCancel}>
